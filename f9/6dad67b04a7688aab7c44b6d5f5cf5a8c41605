@@ -1,0 +1,25 @@
+.claude/system_context.md
+  s_766208503e3409::t_9175e3503c8830 4
+CHARTER.md
+  s_766208503e3409::t_46d526c21137b8 1
+README.md
+  s_766208503e3409::t_0017eb492c7756 1
+SYSTEM_PROMPT.md
+  s_766208503e3409::t_d95e470cdbb9d7 4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "development:1.7.1",
+  "base_commit_sha": "f96dad67b04a7688aab7c44b6d5f5cf5a8c41605",
+  "prompts": {},
+  "sessions": {
+    "s_766208503e3409": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0fb5d-5292-7a00-8133-bfaa1f400682",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Guiraud <mehdi.guiraud@gmail.com>"
+    }
+  }
+}
