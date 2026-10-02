@@ -1,0 +1,59 @@
+.claude/agents/context-manager.md
+  s_766208503e3409::t_4ab175f318165e 1-64
+.claude/agents/error-detective.md
+  s_766208503e3409::t_9caecc17a11373 1-286
+.claude/agents/fullstack-developer.md
+  s_766208503e3409::t_269f364b907bfa 1-98
+.claude/agents/inclusivity-editor.md
+  s_766208503e3409::t_cc33144cc2b0c8 1-38
+.claude/agents/link-verifier.md
+  s_766208503e3409::t_9df4897e9dd6ed 1-35
+.claude/agents/mcp-expert.md
+  s_766208503e3409::t_a74970a5367de3 1-258
+.claude/agents/prompt-engineer.md
+  s_766208503e3409::t_1e95b0b42343f3 1-153
+.claude/system_context.md
+  s_766208503e3409::t_df5f5322f7fe44 1-45
+.env.template
+  s_766208503e3409::t_0d829459b5bf20 1-4
+.gitignore
+  s_766208503e3409::t_c37a8a84dfbd9a 1-17
+CHARTER.md
+  s_766208503e3409::t_c8f2261ed4c398 1-27
+CLAUDE.md
+  s_766208503e3409::t_7f6f5b65953ddf 1
+GEMINI.md
+  s_766208503e3409::t_771be32f3d4fce 1
+QWEN.md
+  s_766208503e3409::t_f6c382f70b97fc 1
+README.md
+  s_766208503e3409::t_f40bcc17d8f113 1-23
+SYSTEM_PROMPT.md
+  s_766208503e3409::t_e4e29e024dfe3c 1-45
+robots.txt
+  s_766208503e3409::t_e9b38a119bde56 1-18
+scripts/correction_ollama.py
+  s_766208503e3409::t_e03a30315dc3c1 1-197
+web/signature.css
+  s_766208503e3409::t_efdc28f8dfdf1c 1-241
+web/signature.html
+  s_766208503e3409::t_c101882914e84a 1-90
+web/signature.js
+  s_766208503e3409::t_f32dfeb09077a5 1-71
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "development:1.7.1",
+  "base_commit_sha": "247a0179eb9d21edbf3bbc214bca10408a6655b9",
+  "prompts": {},
+  "sessions": {
+    "s_766208503e3409": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0fb5d-5292-7a00-8133-bfaa1f400682",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Guiraud <mehdi.guiraud@gmail.com>"
+    }
+  }
+}
