@@ -4,7 +4,7 @@ Site pédagogique pour explorer les applications possibles du développement ave
 
 ## Première version
 
-Dix fiches de réalisations, filtres par usage, présentation de la méthode et simulation interactive locale. Les fiches distinguent le code existant des démonstrations et preuves restant à préparer. Aucun appel à une IA, cookie applicatif ou service d’analyse d’audience.
+Neuf fiches de réalisations, filtres par usage, présentation de la méthode et simulation interactive locale. Les fiches distinguent le code existant des démonstrations et preuves restant à préparer. Aucun appel à une IA, cookie applicatif ou service d’analyse d’audience.
 
 ## Développement
 
