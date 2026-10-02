@@ -1,0 +1,21 @@
+README.md
+  s_766208503e3409::t_506d89e81ba330 38
+web/app.js
+  s_766208503e3409::t_a14185dbae1bc4 9,13,17,19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "development:1.7.1",
+  "base_commit_sha": "7759ae5d81ebc9da85ec2808d184191d6053a3bc",
+  "prompts": {},
+  "sessions": {
+    "s_766208503e3409": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0fb5d-5292-7a00-8133-bfaa1f400682",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Guiraud <mehdi.guiraud@gmail.com>"
+    }
+  }
+}
