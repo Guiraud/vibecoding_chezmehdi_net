@@ -1,0 +1,22 @@
+web/app.js
+  s_766208503e3409::t_112ec5bff1c525 5,14
+  s_766208503e3409::t_77d3d75ecc7c01 19
+web/styles.css
+  s_766208503e3409::t_abe68186688b8b 4-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "development:1.7.1",
+  "base_commit_sha": "f0e47f4b66d1639f983248e643e65521f9516e58",
+  "prompts": {},
+  "sessions": {
+    "s_766208503e3409": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0fb5d-5292-7a00-8133-bfaa1f400682",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Guiraud <mehdi.guiraud@gmail.com>"
+    }
+  }
+}
