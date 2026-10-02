@@ -3,3 +3,6 @@
 .art:has(img){padding:0;align-items:start;background:white}.art img{display:block;width:100%;height:100%;object-fit:cover;object-position:top}.card-actions{display:flex;justify-content:space-between;gap:15px;align-items:center}.visit-link{font-size:13px;color:var(--blue);font-weight:600}.card-body .availability{font-size:11px;min-height:0;margin:12px 0 0;color:#87511d}
 
 .art-mains:has(img){background:#191815}.art-mains img{object-fit:contain}.project-preview{display:block;width:100%;height:auto;border-radius:8px;margin-bottom:20px}
+
+.art-mains:has(img){position:relative;overflow:hidden}
+.art-mains img{position:absolute;max-width:none;width:190%;height:auto;left:-45%;top:-23%;object-fit:initial}
