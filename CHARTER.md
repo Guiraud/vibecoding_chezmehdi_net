@@ -1,4 +1,4 @@
-# 📋 CHARTE PROJET IA : --help
+# 📋 CHARTE PROJET IA : vibecoding_chezmehdi_net
 
 ## 1. Vision & Objectifs
 **Problème métier :** Développement assisté par IA

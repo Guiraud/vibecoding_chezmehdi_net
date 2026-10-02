@@ -1,4 +1,4 @@
-# --help
+# vibecoding_chezmehdi_net
 
 [![Charte Projet](https://img.shields.io/badge/DOC-CHARTER.md-1E5EFF?style=for-the-badge)](CHARTER.md)
 [![Status](https://img.shields.io/badge/Status-Pilote-FFB020?style=for-the-badge)]()
