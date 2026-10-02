@@ -1,0 +1,21 @@
+Docs/DEPLOIEMENT.md
+  s_766208503e3409::t_f63d8843272944 5,7,9,11
+README.md
+  s_766208503e3409::t_6453383f5e51c1 22,24-25,33
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "development:1.7.1",
+  "base_commit_sha": "1f316db6fb57ead42ddd5fd2ae766ead52c848e1",
+  "prompts": {},
+  "sessions": {
+    "s_766208503e3409": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0fb5d-5292-7a00-8133-bfaa1f400682",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Guiraud <mehdi.guiraud@gmail.com>"
+    }
+  }
+}
