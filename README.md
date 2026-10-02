@@ -4,7 +4,7 @@ Site pédagogique pour explorer les applications possibles du développement ave
 
 ## Première version
 
-Neuf fiches de réalisations, filtres par usage, présentation de la méthode et simulation interactive locale. Les fiches distinguent le code existant des démonstrations et preuves restant à préparer. Aucun appel à une IA, cookie applicatif ou service d’analyse d’audience.
+Dix fiches de réalisations, filtres par usage, présentation de la méthode et simulation interactive locale. Les fiches distinguent le code existant des démonstrations et preuves restant à préparer. Aucun appel à une IA, cookie applicatif ou service d’analyse d’audience.
 
 ## Développement
 
@@ -35,4 +35,4 @@ Documentation officielle : https://developers.cloudflare.com/pages/configuration
 
 ## Prochaines étapes
 
-Vérifier les applications externes, préparer des jeux de données fictifs, rassembler les traces de fabrication et produire de vraies démonstrations. Les dessins de la galerie sont des illustrations, pas des captures des applications.
+Vérifier les applications externes, préparer des jeux de données fictifs, rassembler les traces de fabrication et produire de vraies démonstrations. La galerie inclut des captures des sites ATT, Récits, Fred2Baro et Roundnet prises le 2 octobre 2026. Les autres visuels sont des illustrations. Liens directs disponibles pour ces quatre sites et Woodat (indisponible lors de la vérification).
