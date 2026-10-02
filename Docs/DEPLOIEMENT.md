@@ -2,13 +2,13 @@
 
 Le dépôt GitHub public est https://github.com/Guiraud/vibecoding_chezmehdi_net.
 
-La création du projet Pages avec source GitHub a été tentée le 2 octobre 2026. Cloudflare a refusé avec le code `8000011` : problème dans l’installation Git du compte. Aucun projet Pages n’a été créé par cette tentative et le domaine n’a pas été configuré.
+## Source de déploiement
 
-## Action nécessaire dans Cloudflare
+L’intégration GitHub a échoué avec l’erreur Cloudflare `8000011`. Le 2 octobre 2026, une copie du dépôt a été créée sur GitLab : https://gitlab.com/Guiraud/vibecoding_chezmehdi_net.
 
-Depuis Workers & Pages, créer une application Pages en important un dépôt Git. Autoriser ou réinstaller l’application Cloudflare Pages sur GitHub avec accès au dépôt `Guiraud/vibecoding_chezmehdi_net`.
+La création du projet Pages par API avec cette source GitLab a réussi. Projet : `vibecoding-chezmehdi-net`, adresse : https://vibecoding-chezmehdi-net.pages.dev.
 
-Réglages : nom `vibecoding-chezmehdi-net`, branche `main`, framework aucun, commande `npm run build`, sortie `dist`, racine du dépôt, variable `NODE_VERSION=22`.
+Réglages : branche `main`, commande `npm run build`, sortie `dist`, variable `NODE_VERSION=22`. Le remote local `gitlab` alimente le déploiement ; `origin` conserve la copie GitHub. Pousser les modifications sur les deux dépôts.
 
 Après le premier déploiement réussi, ajouter `vibecoding.chezmehdi.net` dans les domaines personnalisés du projet et suivre la validation DNS proposée. Vérifier le certificat, la page d’accueil et les fiches.
 

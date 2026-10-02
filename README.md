@@ -19,9 +19,10 @@ npm run build
 
 Ouvrir http://localhost:4173. Sources dans `web/`, sortie statique dans `dist/`. La CI GitHub vérifie les ressources locales et construit le site.
 
-## Cloudflare Pages avec GitHub
+## Cloudflare Pages avec GitLab
 
-- Dépôt : `Guiraud/vibecoding_chezmehdi_net`
+- Dépôt de déploiement : https://gitlab.com/Guiraud/vibecoding_chezmehdi_net
+- Copie GitHub : https://github.com/Guiraud/vibecoding_chezmehdi_net
 - Branche de production : `main`
 - Framework : aucun
 - Commande : `npm run build`
@@ -29,7 +30,7 @@ Ouvrir http://localhost:4173. Sources dans `web/`, sortie statique dans `dist/`.
 - Variable de build : `NODE_VERSION=22`
 - Domaine personnalisé : `vibecoding.chezmehdi.net`
 
-Connecter ce dépôt depuis Workers & Pages → créer une application Pages → importer un dépôt Git. Ajouter ensuite le domaine personnalisé depuis le projet Pages. Ne pas créer un projet Direct Upload si l’objectif est l’intégration Git native.
+Le projet `vibecoding-chezmehdi-net` est connecté à GitLab. Ajouter ensuite le domaine personnalisé depuis le projet Pages. Ne pas créer un projet Direct Upload si l’objectif est l’intégration Git native.
 
 Documentation officielle : https://developers.cloudflare.com/pages/configuration/git-integration/
 
