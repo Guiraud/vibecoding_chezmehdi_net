@@ -1,27 +1,16 @@
-# 📋 CHARTE PROJET IA : vibecoding_chezmehdi_net
+# Charte — Vibecoding Chez Mehdi
 
-## 1. Vision & Objectifs
-**Problème métier :** Développement assisté par IA
-**Rôle de l'IA :** Assistant polyvalent
-**Utilisateur cible :** Non spécifié
+## Objectif
+Montrer, à partir de réalisations concrètes, les usages du développement avec l’IA et les choix humains nécessaires.
 
-## 2. Périmètre & Limites
-**Ce que l'IA fait :** Assistance, suggestion, analyse.
-**Ce que l'IA NE fait PAS :** Décision finale critique sans validation humaine.
+## Public
+Personnes curieuses, créateurs et professionnels souhaitant comprendre ce qu’ils peuvent construire.
 
-## 3. Données & Gouvernance
-**Sources :** Données publiques
-**Sensibilité :** Standard
-**Contraintes RGPD/AI Act :** Minimisation des données personnelles, pas d'entraînement sur données sensibles.
+## Périmètre initial
+Galerie, fiches de projets, méthode et simulation locale. Site statique en français, accessible sur mobile, hébergé par Cloudflare Pages et versionné sur GitHub.
 
-## 4. Métriques de Succès
-- Fonctionnalité du code
-- Satisfaction utilisateur
-- Absence d'hallucinations critiques
+## Rigueur
+Ne pas inventer de prompts, de délais, de gains mesurés ni d’attributions IA. Distinguer les fonctionnalités constatées dans le code de celles vérifiées en utilisation. Aucune donnée privée dans les exemples.
 
-## 5. Analyse des Risques
-**Identifiés :** Faibles
-**Mitigation :** Boucle de validation humaine (Human-in-the-loop), Logs d'erreurs, Tests réguliers.
-
----
-*Généré automatiquement par l'Usine à Projets Place de l'Info.*
+## Validation
+Construction réussie, ressources locales présentes, interactions vérifiées dans le navigateur et absence de débordement mobile.

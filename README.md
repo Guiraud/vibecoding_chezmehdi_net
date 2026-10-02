@@ -1,23 +1,38 @@
-# vibecoding_chezmehdi_net
+# Vibecoding Chez Mehdi
 
-[![Charte Projet](https://img.shields.io/badge/DOC-CHARTER.md-1E5EFF?style=for-the-badge)](CHARTER.md)
-[![Status](https://img.shields.io/badge/Status-Pilote-FFB020?style=for-the-badge)]()
-[![💼 CV – Mehdi Guiraud](https://img.shields.io/badge/CV-Mehdi_Guiraud-0a9396?style=for-the-badge)](https://tech.mehdiguiraud.info)
-[![☕ Faire un don](https://img.shields.io/badge/Soutenir-Mon_travail-ff006e?style=for-the-badge)](https://paypal.me/mehdiguiraud)
+Site pédagogique pour explorer les applications possibles du développement avec l’IA. Domaine prévu : https://vibecoding.chezmehdi.net.
 
-Projet développé par [Mehdi Guiraud](https://tech.mehdiguiraud.info).
-Ce dépôt fait partie de l'écosystème [Place de l'Info](https://placedelinfo.org).
+## Première version
 
-## 🧠 Objectif
-Développement assisté par IA
+Neuf fiches de réalisations, filtres par usage, présentation de la méthode et simulation interactive locale. Les fiches distinguent le code existant des démonstrations et preuves restant à préparer. Aucun appel à une IA, cookie applicatif ou service d’analyse d’audience.
 
-## 📚 Documentation
-- [Charte du Projet](CHARTER.md) : Cadrage, risques et métriques.
-- [System Prompt](SYSTEM_PROMPT.md) : Instructions pour l'IA.
+## Développement
 
-## 📄 CV & Soutien
-➡️ [Consulter mon CV](https://tech.mehdiguiraud.info)
-☕ [Faire un don](https://paypal.me/mehdiguiraud)
+Node.js 22+ et Python 3 pour le serveur local.
 
----
-© 2026 Mehdi Guiraud
+```bash
+npm ci
+npm run dev
+npm test
+npm run build
+```
+
+Ouvrir http://localhost:4173. Sources dans `web/`, sortie statique dans `dist/`. La CI GitHub vérifie les ressources locales et construit le site.
+
+## Cloudflare Pages avec GitHub
+
+- Dépôt : `Guiraud/vibecoding_chezmehdi_net`
+- Branche de production : `main`
+- Framework : aucun
+- Commande : `npm run build`
+- Répertoire de sortie : `dist`
+- Variable de build : `NODE_VERSION=22`
+- Domaine personnalisé : `vibecoding.chezmehdi.net`
+
+Connecter ce dépôt depuis Workers & Pages → créer une application Pages → importer un dépôt Git. Ajouter ensuite le domaine personnalisé depuis le projet Pages. Ne pas créer un projet Direct Upload si l’objectif est l’intégration Git native.
+
+Documentation officielle : https://developers.cloudflare.com/pages/configuration/git-integration/
+
+## Prochaines étapes
+
+Vérifier les applications externes, préparer des jeux de données fictifs, rassembler les traces de fabrication et produire de vraies démonstrations. Les dessins de la galerie sont des illustrations, pas des captures des applications.

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vibecoding.chezmehdi.net/sitemap.xml
