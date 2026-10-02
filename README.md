@@ -35,4 +35,4 @@ Documentation officielle : https://developers.cloudflare.com/pages/configuration
 
 ## Prochaines étapes
 
-Vérifier les applications externes, préparer des jeux de données fictifs, rassembler les traces de fabrication et produire de vraies démonstrations. La galerie inclut des captures des sites ATT, Récits, Fred2Baro et Roundnet prises le 2 octobre 2026. Les autres visuels sont des illustrations. Liens directs disponibles pour ces quatre sites et Woodat (indisponible lors de la vérification).
+Vérifier les applications externes, préparer des jeux de données fictifs, rassembler les traces de fabrication et produire de vraies démonstrations. La galerie inclut des captures des sites ATT, Récits, Fred2Baro et Roundnet prises le 2 octobre 2026. Les autres visuels sont des illustrations. Liens directs disponibles pour ces quatre sites et la présentation de l’extension Woodat sur charte-de-munich.org.
