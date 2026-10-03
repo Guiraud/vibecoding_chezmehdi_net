@@ -7,7 +7,7 @@ test('Les ressources locales et les destinations internes existent',async()=>{
  for(const [,url] of html.matchAll(/(?:href|src)="([^"]+)"/g)){
   if(url.startsWith('https:'))continue;
   if(url.startsWith('#')){if(url.length>1)assert.ok(html.includes(`id="${url.slice(1)}"`),url);continue;}
-  await access(resolve('web',url));
+  await access(resolve('web',url.split('?')[0]));
  }
 });
 test('Le déploiement inclut les protections et le plan du site',async()=>{

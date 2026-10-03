@@ -12,3 +12,5 @@
 .art-aitop{background:#050505;padding:10px}.art-aitop img{object-fit:contain}
 
 .art-loi-integrale{background:#f3eee7}.art-remarkable{background:#edf0e7}.tool-links li{margin-bottom:10px}
+
+.task-preview{padding:25px 20px}.task-preview ul{list-style:none;padding:0;margin:16px 0 0}.task-preview li{padding:10px 0;border-bottom:1px solid var(--line);font-size:13px}.task-preview li span{color:var(--blue);margin-right:10px}
